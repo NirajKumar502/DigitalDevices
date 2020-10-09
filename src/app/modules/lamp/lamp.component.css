@@ -1,0 +1,187 @@
+#mainHeading{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5%;
+}
+#subHeading{
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 5%;
+  /* text-shadow: 0 20px 25px;*/
+}
+
+#shades, #modes, #intensity{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5%;
+    color:#AC6CFF;
+
+} #addNewDevice{
+float:right !important;
+}
+
+#toggleButton{
+  float:right !important;
+} 
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    height: 21px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 4px;
+    right:4px;
+    top:4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: black;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px black;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 60px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  #arc-slider {
+    height: 110px !important;
+    width: 500px !important;
+    overflow: hidden;
+    padding: 15px;
+}
+#arc-slider .rs-container {
+    margin-left: -350px; /* here 350 is the radius value */
+    left: 50%;
+}
+#arc-slider .rs-tooltip {
+    top: 60px;
+}
+#arc-slider .rs-tooltip-text {
+    font-size: 25px;
+}
+#arc-slider .rs-border{
+    border-width: 0px;
+}
+
+/* Appearance related changes */
+.rs-control .rs-range-color {
+    background-color: #54BBE0;
+}
+.rs-control .rs-path-color {
+    background-color: #5f5f5f;
+}
+.rs-control .rs-handle {
+    background-color: #51c5cf;
+}
+
+.box {
+  height: 45px;
+  width: 45px;
+  margin-bottom: 15px;
+
+}
+.one{
+  background-color: #FF4563;
+  transition: transform .2s; /* Animation */
+}
+
+.two{
+  background-color: #8245E6;
+  transition: transform .2s; /* Animation */
+}
+.three{
+  background-color: #4AC0E0;
+  transition: transform .2s; /* Animation */
+}
+.four{
+  background-color: #1089EB;
+  transition: transform .2s; /* Animation */
+}
+.five{
+  background-color:#C791CD;
+  transition: transform .2s; /* Animation */
+}
+.one:hover {
+  transform: scale(1.3); /* (130% zoom ) */
+}
+.two:hover {
+  transform: scale(1.3); /* (130% zoom ) */
+}
+.three:hover {
+  transform: scale(1.3); /* (130% zoom ) */
+}
+.four:hover {
+  transform: scale(1.3); /* (130% zoom ) */
+}
+.five:hover {
+  transform: scale(1.3); /* (130% zoom ) */
+}
+.add{
+  background-color: #A3F8FF;
+  padding-left: 8px;
+  padding-top: 7px;
+}
+hr.dotted {
+  border-top: 2px dotted #AC6CFF;
+  padding-bottom: 3px;
+}
+#colorPallette{
+  padding-top: 2%;
+}
+
+/* .mytextdiv{
+  display:flex;
+  flex-direction:row;
+   align-items: center;
+}
+.mytexttitle{
+  flex-grow:0;
+}
+
+.divider{
+  flex-grow:1;
+  height: 1px;
+  background-color: #AC6CFF;
+} */
